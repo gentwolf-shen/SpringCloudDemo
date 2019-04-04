@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-cloud-consul
+  cloud:
+    consul:
+      host: 10.10.20.212
+      port: 8500
+      discovery:
+        enabled: true
+        instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}:${server.port}
+        health-check-path: /actuator/health
+        service-name: ${spring.application.name}
+        prefer-ip-address: true
+
+logging:
+  level:
+    root: INFO
+  path: ./log/${spring.application.name}

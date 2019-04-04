@@ -1,0 +1,324 @@
+19-04-04 10:24:20.417 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b34f730] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 10:24:20.628 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 10:24:22.288 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 10:24:22.448 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1b34f730] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 10:24:23.093 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 10:24:23.158 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 10:24:23.203 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 10:24:23.204 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 10:24:23.230 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 10:24:23.476 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 10:24:23.484 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2829 ms
+19-04-04 10:24:23.953 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 10:24:24.062 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7354b8c5
+19-04-04 10:24:26.902 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 10:24:27.159 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 10:24:27.677 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 10:24:27.841 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 10:24:28.035 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 10:24:28.091 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 10:24:28.149 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 10:24:28.262 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 10.115 seconds (JVM running for 11.136)
+19-04-04 10:24:37.496 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 10:24:37.497 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 10:24:37.511 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 14 ms
+19-04-04 10:25:32.692 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 10:25:32.742 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 10:25:32.747 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 10:49:05.836 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d79ec2f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 10:49:06.013 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 10:49:07.269 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 10:49:07.399 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d79ec2f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 10:49:07.887 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 10:49:07.916 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 10:49:07.934 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 10:49:07.935 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 10:49:07.951 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 10:49:08.047 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 10:49:08.048 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2017 ms
+19-04-04 10:49:08.205 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 10:49:08.232 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6a57ae10
+19-04-04 10:49:09.343 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 10:49:09.564 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 10:49:10.077 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 10:49:10.197 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 10:49:10.340 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 10:49:10.409 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 10:49:10.433 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 10:49:10.555 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 6.187 seconds (JVM running for 6.722)
+19-04-04 10:49:18.822 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 10:49:18.823 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 10:49:18.833 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 10 ms
+19-04-04 11:10:59.976 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 11:11:00.031 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 11:11:00.034 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 11:31:25.828 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1183af62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 11:31:26.045 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 11:31:27.356 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 11:31:27.483 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1183af62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 11:31:27.990 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 11:31:28.019 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 11:31:28.038 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 11:31:28.039 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 11:31:28.057 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 11:31:28.161 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 11:31:28.162 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2099 ms
+19-04-04 11:31:28.319 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 11:31:28.342 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1cd629b3
+19-04-04 11:31:29.401 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 11:31:29.631 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 11:31:30.178 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 11:31:30.350 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 11:31:30.511 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 11:31:30.549 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 11:31:30.596 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 11:31:30.697 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 6.367 seconds (JVM running for 6.926)
+19-04-04 11:31:35.181 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 11:31:35.181 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 11:31:35.198 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 17 ms
+19-04-04 11:32:07.564 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 11:32:07.616 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 11:32:07.620 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 12:32:13.411 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17ad6abf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 12:32:13.642 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 12:32:15.240 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 12:32:15.391 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17ad6abf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 12:32:15.983 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 12:32:16.007 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 12:32:16.023 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 12:32:16.024 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 12:32:16.037 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 12:32:16.141 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 12:32:16.142 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2482 ms
+19-04-04 12:32:16.313 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 12:32:16.344 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@495ee280
+19-04-04 12:32:17.535 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 12:32:17.771 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 12:32:18.322 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 12:32:18.439 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 12:32:18.637 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 12:32:18.762 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 12:32:18.789 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 12:32:18.894 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 7.942 seconds (JVM running for 9.028)
+19-04-04 12:32:22.962 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 12:32:22.963 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 12:32:22.973 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 10 ms
+19-04-04 12:33:37.452 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 12:33:37.525 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 12:33:37.530 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 12:33:45.494 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f145d8a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 12:33:45.686 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 12:33:47.266 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 12:33:47.408 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f145d8a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 12:33:47.986 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 12:33:48.014 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 12:33:48.031 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 12:33:48.031 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 12:33:48.056 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 12:33:48.174 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 12:33:48.175 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2462 ms
+19-04-04 12:33:48.391 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 12:33:48.441 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@895e367
+19-04-04 12:33:50.016 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 12:33:50.323 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 12:33:51.056 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 12:33:51.226 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 12:33:51.489 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 12:33:51.618 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 12:33:51.647 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 12:33:52.030 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 8.19 seconds (JVM running for 8.85)
+19-04-04 12:33:58.081 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 12:33:58.082 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 12:33:58.092 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 10 ms
+19-04-04 12:35:53.445 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 12:35:53.516 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 12:35:53.519 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 12:39:06.057 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e85f254b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 12:39:06.463 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 12:39:08.950 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 12:39:09.149 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e85f254b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 12:39:09.805 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 12:39:09.840 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 12:39:09.856 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 12:39:09.857 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 12:39:09.873 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 12:39:10.012 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 12:39:10.013 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3513 ms
+19-04-04 12:39:10.264 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 12:39:10.324 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@748741cb
+19-04-04 12:39:11.860 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 12:39:12.474 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 12:39:13.606 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 12:39:13.742 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 12:39:13.926 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 12:39:14.035 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 12:39:14.063 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 12:39:14.188 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 11.001 seconds (JVM running for 12.449)
+19-04-04 12:39:15.609 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 12:39:15.610 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 12:39:15.624 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 13 ms
+19-04-04 12:46:31.182 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 12:46:31.258 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 12:46:31.260 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 13:19:32.042 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e32c53f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:19:32.237 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 13:19:33.610 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 13:19:33.757 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e32c53f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:19:34.300 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 13:19:34.332 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 13:19:34.350 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 13:19:34.350 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 13:19:34.370 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 13:19:34.474 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 13:19:34.475 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2219 ms
+19-04-04 13:19:34.632 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:19:34.654 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@12299890
+19-04-04 13:19:35.869 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:19:36.099 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 13:19:36.627 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:19:36.737 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 13:19:36.881 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 13:19:37.006 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 13:19:37.031 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 13:19:37.157 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 6.619 seconds (JVM running for 7.277)
+19-04-04 13:19:45.792 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 13:19:45.793 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 13:19:45.801 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 8 ms
+19-04-04 13:20:05.048 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 13:20:05.140 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:20:05.143 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 13:20:14.218 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6fbe5f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:20:14.524 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 13:20:16.760 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 13:20:16.951 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6fbe5f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:20:17.871 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 13:20:17.902 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 13:20:17.954 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 13:20:17.955 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 13:20:17.994 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 13:20:18.193 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 13:20:18.194 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 3631 ms
+19-04-04 13:20:18.523 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:20:18.613 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@748741cb
+19-04-04 13:20:20.401 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:20:20.744 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 13:20:21.868 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:20:22.110 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 13:20:22.468 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 13:20:22.658 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 13:20:22.691 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 13:20:22.827 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 11.051 seconds (JVM running for 12.051)
+19-04-04 13:20:23.083 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 13:20:23.084 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 13:20:23.099 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 15 ms
+19-04-04 13:20:31.284 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 13:20:31.350 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:20:31.362 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 13:22:18.064 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d375a233] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:22:18.238 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 13:22:19.618 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 13:22:19.756 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d375a233] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:22:20.232 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 13:22:20.256 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 13:22:20.274 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 13:22:20.275 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 13:22:20.302 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 13:22:20.398 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 13:22:20.398 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2139 ms
+19-04-04 13:22:20.572 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:22:20.596 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4e928fbf
+19-04-04 13:22:21.826 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:22:22.099 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 13:22:22.645 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:22:22.876 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 13:22:23.291 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 13:22:23.412 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 13:22:23.451 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 13:22:23.573 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 7.139 seconds (JVM running for 7.747)
+19-04-04 13:22:25.840 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 13:22:25.840 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 13:22:25.850 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 10 ms
+19-04-04 13:22:31.242 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 13:22:31.313 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:22:31.317 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 13:34:34.498 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6fbe5f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:34:34.690 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 13:34:36.070 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 13:34:36.204 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6fbe5f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:34:36.726 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 13:34:36.755 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 13:34:36.771 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 13:34:36.772 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 13:34:36.792 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 13:34:36.893 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 13:34:36.893 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2181 ms
+19-04-04 13:34:37.061 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:34:37.085 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3224a577
+19-04-04 13:34:38.225 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:34:38.447 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 13:34:39.047 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:34:39.153 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 13:34:39.277 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 13:34:39.379 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 13:34:39.398 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 13:34:39.526 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 6.586 seconds (JVM running for 7.166)
+19-04-04 13:34:40.439 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 13:34:40.440 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 13:34:40.451 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 11 ms
+19-04-04 13:35:02.353 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 13:35:02.427 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:35:02.438 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 13:35:33.531 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e123e862] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:35:33.705 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 13:35:35.010 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 13:35:35.160 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e123e862] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:35:35.692 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 13:35:35.725 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 13:35:35.747 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 13:35:35.748 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 13:35:35.767 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 13:35:35.884 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 13:35:35.885 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2162 ms
+19-04-04 13:35:36.064 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:35:36.092 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4dd6fd0a
+19-04-04 13:35:37.182 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:35:37.407 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 13:35:37.967 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:35:38.076 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 13:35:38.227 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 13:35:38.350 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 13:35:38.386 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 13:35:38.499 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 6.358 seconds (JVM running for 6.923)
+19-04-04 13:35:47.575 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 13:35:47.576 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 13:35:47.586 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 10 ms
+19-04-04 13:37:27.735 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 13:37:27.808 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:37:27.811 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'
+19-04-04 13:38:06.413 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a752ab29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:38:06.611 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication:675] No active profile set, falling back to default profiles: default
+19-04-04 13:38:07.910 [34m INFO[0;39m [.s.cloud.context.scope.GenericScope:295] BeanFactory id=632afda3-9cb7-369e-b515-91a70f13d1e5
+19-04-04 13:38:08.046 [34m INFO[0;39m [onDelegate$BeanPostProcessorChecker:330] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a752ab29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+19-04-04 13:38:08.546 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer: 90] Tomcat initialized with port(s): 8081 (http)
+19-04-04 13:38:08.582 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Initializing ProtocolHandler ["http-nio-8081"]
+19-04-04 13:38:08.610 [34m INFO[0;39m [pache.catalina.core.StandardService:173] Starting service [Tomcat]
+19-04-04 13:38:08.610 [34m INFO[0;39m [apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.16]
+19-04-04 13:38:08.631 [34m INFO[0;39m [.catalina.core.AprLifecycleListener:173] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+19-04-04 13:38:08.727 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+19-04-04 13:38:08.728 [34m INFO[0;39m [      o.s.web.context.ContextLoader:296] Root WebApplicationContext: initialization completed in 2098 ms
+19-04-04 13:38:08.913 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:38:08.938 [34m INFO[0;39m [tflix.config.DynamicPropertyFactory:281] DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@329dbdbf
+19-04-04 13:38:10.130 [34m INFO[0;39m [.n.c.sources.URLConfigurationSource:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+19-04-04 13:38:10.357 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:171] Initializing ExecutorService 'applicationTaskExecutor'
+19-04-04 13:38:10.884 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:171] Initializing ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:38:11.028 [34m INFO[0;39m [o.s.b.a.e.web.EndpointLinksResolver: 59] Exposing 2 endpoint(s) beneath base path '/actuator'
+19-04-04 13:38:11.186 [34m INFO[0;39m [che.coyote.http11.Http11NioProtocol:173] Starting ProtocolHandler ["http-nio-8081"]
+19-04-04 13:38:11.297 [34m INFO[0;39m [b.w.embedded.tomcat.TomcatWebServer:204] Tomcat started on port(s): 8081 (http) with context path ''
+19-04-04 13:38:11.377 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 65] Registering service with consul: NewService{id='spring-cloud-consul-10-10-20-212-8081', name='spring-cloud-consul', tags=[secure=false], address='10.10.20.212', meta=null, port=8081, enableTagOverride=null, check=Check{script='null', interval='10s', ttl='null', http='http://10.10.20.212:8081/actuator/health', method='null', header={}, tcp='null', timeout='null', deregisterCriticalServiceAfter='null', tlsSkipVerify=null, status='null'}, checks=null}
+19-04-04 13:38:11.541 [34m INFO[0;39m [.e.c.s.SpringCloudConsulApplication: 59] Started SpringCloudConsulApplication in 6.584 seconds (JVM running for 7.18)
+19-04-04 13:38:15.411 [34m INFO[0;39m [ o.a.c.c.C.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-04-04 13:38:15.411 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:524] Initializing Servlet 'dispatcherServlet'
+19-04-04 13:38:15.428 [34m INFO[0;39m [  o.s.web.servlet.DispatcherServlet:546] Completed initialization in 16 ms
+19-04-04 13:39:32.063 [34m INFO[0;39m [    o.s.c.c.s.ConsulServiceRegistry: 93] Deregistering service with consul: spring-cloud-consul-10-10-20-212-8081
+19-04-04 13:39:32.124 [34m INFO[0;39m [.concurrent.ThreadPoolTaskScheduler:208] Shutting down ExecutorService 'catalogWatchTaskScheduler'
+19-04-04 13:39:32.127 [34m INFO[0;39m [s.concurrent.ThreadPoolTaskExecutor:208] Shutting down ExecutorService 'applicationTaskExecutor'

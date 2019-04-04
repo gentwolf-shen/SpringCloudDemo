@@ -1,0 +1,48 @@
+19-04-04 10:24:21.996 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 10:24:23.952 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 10:24:26.901 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 10:24:27.825 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 10:49:06.982 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 10:49:08.204 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 10:49:09.342 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 10:49:10.183 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 11:31:27.057 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 11:31:28.318 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 11:31:29.400 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 11:31:30.336 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 12:32:14.929 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 12:32:16.313 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 12:32:17.534 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 12:32:18.425 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 12:33:46.875 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 12:33:48.390 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 12:33:50.015 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 12:33:51.211 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 12:39:08.428 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 12:39:10.260 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 12:39:11.858 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 12:39:13.730 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 13:19:33.324 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 13:19:34.631 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:19:35.868 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:19:36.725 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 13:20:16.252 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 13:20:18.521 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:20:20.400 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:20:22.086 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 13:22:19.320 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 13:22:20.571 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:22:21.824 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:22:22.832 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 13:34:35.771 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 13:34:37.060 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:34:38.225 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:34:39.141 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 13:35:34.690 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 13:35:36.063 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:35:37.181 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:35:38.065 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.
+19-04-04 13:38:07.616 [31m WARN[0;39m [.s.boot.actuate.endpoint.EndpointId:135] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+19-04-04 13:38:08.912 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:38:10.129 [31m WARN[0;39m [.n.c.sources.URLConfigurationSource:121] No URLs will be polled as dynamic configuration sources.
+19-04-04 13:38:11.012 [31m WARN[0;39m [.netflix.core.CoreAutoConfiguration: 37] This module is deprecated. It will be removed in the next major release. Please use spring-cloud-netflix-hystrix instead.

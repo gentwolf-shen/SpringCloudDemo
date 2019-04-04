@@ -1,0 +1,79 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-cloud-gateway
+  redis:
+    database: 0
+    host: 127.0.0.1
+    pool: 6379
+    jedis:
+      pool:
+        max-active: 10
+        min-idle: 1
+        max-wait: 1000ms
+        max-idle: 10
+  cloud:
+    consul:
+      host: 10.10.20.212
+      port: 8500
+      discovery:
+        enabled: true
+        instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}:${server.port}
+        health-check-path: /actuator/health
+        service-name: ${spring.application.name}
+
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
+
+      default-filters:
+      - AddResponseHeader=X-Gateway, ${spring.cloud.client.ip-address}:${server.port}
+      # 在routers中已经注册，且后端服务不可用时，才进入这个filter。如果是404,502等，则不会进入。
+      - name: Hystrix
+        args:
+          name: fallbackcmd
+          fallbackUri: forward:/fallback
+      routes:
+      - id: server1
+#        uri: http://10.10.20.212:8081
+        uri: lb://spring-cloud-consul
+        predicates:
+#        - Path=/server1/**
+        - Path=/server1/**
+        filters:
+        # 自定义过滤器 (继承于AbstractGatewayFilterFactory,再定义Bean)
+        - Token
+#        - RewritePath=/server1/(?<segment>.*), /$\{segment}
+        - StripPrefix=1
+        - AddRequestHeader=X-Request-Gateway, DefaultGateway
+#        - name: Hystrix
+#          # 仅在后端服务不可用时才进入，如果是404,502等，则不会
+#          args:
+#            name: fallbackcmd
+#            fallbackUri: forward:/fallback
+        - name: RequestRateLimiter
+          args:
+            # 允许每秒处理多少个请求
+            redis-rate-limiter.replenishRate: 60
+            # 令牌桶的容量，允许在一秒钟内完成的最大请求数
+            redis-rate-limiter.burstCapacity: 120
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+
+management:
+  endpoint:
+    gateway:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: gateway
+

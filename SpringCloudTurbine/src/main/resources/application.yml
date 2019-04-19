@@ -1,8 +1,8 @@
 server:
-  port: 8089
+  port: 8085
 spring:
   application:
-    name: spring-cloud-client
+    name: spring-cloud-turbine
   cloud:
     consul:
       host: 10.10.20.212
@@ -12,10 +12,10 @@ spring:
         instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}:${server.port}
         health-check-path: /actuator/health
         service-name: ${spring.application.name}
-        prefer-ip-address: true
-feign:
-  hystrix:
-    enabled: true
-hystrix:
-  metrics:
-    enabled: true
+
+turbine:
+  aggregator:
+    cluster-config: default
+  app-config: spring-cloud-client-a
+  cluster-name-expression: new String("default")
+  combine-host-port: true

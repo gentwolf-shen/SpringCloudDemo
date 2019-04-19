@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8089
 spring:
   application:
     name: spring-cloud-client
@@ -8,7 +8,11 @@ spring:
       host: 10.10.20.212
       port: 8500
       discovery:
-        register: false
+        enabled: true
+        instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}:${server.port}
+        health-check-path: /actuator/health
+        service-name: ${spring.application.name}
+        prefer-ip-address: true
 feign:
   hystrix:
     enabled: true

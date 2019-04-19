@@ -1,0 +1,42 @@
+server:
+  port: 8083
+
+spring:
+  application: spring-cloud-config-server
+  cloud:
+    bus:
+      trace:
+        enabled: true
+    config:
+      server:
+        git:
+          uri: file://home/jerry/workspace/java/config
+          search-paths:
+          username:
+          password:
+    stream:
+      default-binder: kafka
+      kafka:
+        binder:
+          brokers: 10.10.20.212:9092
+
+  security:
+    user:
+      name: config
+      password: config
+
+encrypt:
+  # 如果生成失败，则需要替换 jre/lib/security/(local_policy.jar,US_export_policy.jar)
+  key: abcd1234
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+app:
+  # abcd1234
+  # curl http://127.0.0.1:8083/encrypt -d abcd1234
+  # curl http://127.0.0.1:8083/decrypt -d 3814f9e37916fd4326a421afee50455acae6fc6d26968ed7cadffc6cfa06f77b
+  # client配置文件中必须写为： '{cipher}3814f9e37916fd4326a421afee50455acae6fc6d26968ed7cadffc6cfa06f77b'
+  pwd: 3814f9e37916fd4326a421afee50455acae6fc6d26968ed7cadffc6cfa06f77b

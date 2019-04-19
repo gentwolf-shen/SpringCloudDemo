@@ -12,3 +12,6 @@ spring:
 feign:
   hystrix:
     enabled: true
+hystrix:
+  metrics:
+    enabled: true

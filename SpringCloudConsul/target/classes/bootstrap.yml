@@ -14,6 +14,18 @@ spring:
         service-name: ${spring.application.name}
         prefer-ip-address: true
 
+  zipkin:
+    base-url: http://127.0.0.1:9411
+    locator:
+      discovery:
+        enabled: true
+  sleuth:
+    sampler:
+#      rate: 1
+      probability: 1.0
+    #web:
+    #  skip-pattern:
+
 logging:
   level:
     root: INFO

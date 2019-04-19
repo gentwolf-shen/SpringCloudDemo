@@ -3,8 +3,6 @@ package cn.easyar.cloud.springcloudgateway.configuration;
 import cn.easyar.cloud.springcloudgateway.filter.TokenGatewayFilterFactory;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
-import org.springframework.cloud.gateway.route.RouteLocator;
-import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
